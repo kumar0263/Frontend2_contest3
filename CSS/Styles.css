@@ -1,0 +1,281 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+
+}
+.leftscreen,
+.rightscreen{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.leftscreen{
+    flex: 0.5;
+}
+.rightscreen{
+    flex: 2;
+}
+
+.chef{
+    display: block;
+    margin: 0 auto;
+    width: 298px;
+    height: 298px;
+    top: 32px;
+    left: 33px;
+    text-align: center;
+    
+
+}
+.leftscreen{
+    /* width: 401px;
+    height: 1117px; */
+
+    
+
+}
+.quicklinks{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.moreabout{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.lefthead{
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+.searchbar{
+    width: 812px;
+    height: 46px;
+    top: 20px;
+    left: 426px;
+    border-radius: 5px;
+    background: #272A30;
+
+
+}
+.Restaurant{
+    text-align: center;
+    width: 272px;
+    height: 36px;
+    top: 312px;
+    left: 65px;
+    padding-left: 60px;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: white;
+
+    
+}
+
+.Slogan{
+    text-align: center;
+    width: 119px;
+    height: 30px;
+    top: 348px;
+    left: 147px;
+    padding-left: 120px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+
+    color: #FF2424;
+}
+
+.rightscreen{
+    background: #0C0E10;
+}
+
+.navbar{
+    width: 1327px;
+    height: 83px;
+    left: 401px;
+
+    background: black;
+
+
+}
+
+.banner{
+    width: 1284px;
+    height: 463px;
+    top: 106px;
+    left: 426px;
+    margin-top: 30px;
+    border-radius: 30px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+input{
+    width: 812px;
+    height: 46px;
+    top: 20px;
+    left: 426px;
+    border-radius: 5px;
+    background: #272A30;
+
+
+}
+
+.Searchbar{
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.Searchbar img{
+    position: absolute;
+    top: 28px;
+    left:23px;
+}
+
+.btn{
+    background-color: #FF2424;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    margin-left: 15px;
+
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 1150px;
+    padding-top: -100px;
+ 
+}
+
+.menu{
+    width: 69px;
+    height: 36px;
+    top: 596px;
+    left: 439px;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+.item{
+    width: 422.2593078613281px;
+    height: 379.8360595703125px;
+    top: 181px;
+    left: 386px;
+    border-radius: 10px;
+
+    background: #191D20;
+
+
+}
+
+.item img{
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.item img:hover{
+    transform: scale(1.04);
+}
+
+.name{
+    width: 194px;
+    height: 35px;
+    top: 478px;
+    left: 406px;
+
+    padding-left: 30px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:  #FFFFFF;
+}
+
+.item p{
+    padding: 0px,0px,2px,10px;
+    margin: 0;
+}
+.price{
+    width: 131px;
+    height: 30px;
+    top: 516px;
+    left: 406px;
+
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:  #FFFFFF;
+
+}
+
+.foodimg{
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+  
+.styles_itemContainer__39Ry3 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.addbtn{
+    padding: 20px;
+}
+  
